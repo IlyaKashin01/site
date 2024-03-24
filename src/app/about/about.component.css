@@ -1,0 +1,75 @@
+#about {
+    background-color: #fff; /* Светло-синий фон */
+    padding: 50px 0; /* Отступы сверху и снизу */
+  }
+  
+  .container-fluid {
+    max-width: 1200px; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрирование по горизонтали */
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .wrapper-price {
+    padding: 3rem 0; /* Отступы сверху и снизу */
+  }
+  
+  .row {
+    display: flex; /* Расположение элементов в строку */
+    flex-direction: row-reverse; /* Расположение элементов в строку в обратном порядке */
+  }
+  
+  .col-md-6 {
+    flex: 0 0 50%; /* 50% ширины для каждой колонки */
+    max-width: 50%; /* 50% максимальной ширины для каждой колонки */
+  }
+  
+  .title_h1 {
+    width: 10vw;
+    color: #0e24f0;
+    text-align: left; /* Выравнивание заголовка слева */
+    border-bottom: 1px solid #0e24f0;
+  }
+  
+  .title_lined span {
+    position: relative; /* Позиционирование элемента */
+  }
+  
+  .title_lined span:before {
+    content: '';
+    position: absolute;
+    bottom: 0; /* Расположение линии относительно нижнего края */
+    left: 0; /* Расположение линии слева */
+    width: 50px; /* Ширина линии */
+    height: 3px; /* Высота линии */
+    background-color: #0e24f0; /* Цвет линии */
+  }
+  
+  .content {
+    margin-left: 30px; /* Отступ слева для текста */
+  }
+  
+  img.full {
+    width: 100%; /* Ширина картинки */
+    height: auto; /* Автоматическая высота картинки */
+    display: block; /* Блочный элемент */
+    margin-left: auto; /* Выравнивание картинки по центру */
+    margin-right: 0; /* Убираем отступ справа */
+  }
+  
+  @media (max-width: 767px) {
+    .container-fluid {
+      padding: 0 15px; /* Добавляем отступы по бокам для мобильных устройств */
+    }
+  
+    .title_h1 {
+      margin-left: 15px; /* Отступ слева для заголовка на мобильных устройствах */
+      margin-right: 15px; /* Отступ справа для заголовка на мобильных устройствах */
+    }
+  
+    .content {
+      margin-right: 15px; /* Отступ справа для текста на мобильных устройствах */
+      margin-left: 0; /* Убираем отступ слева на мобильных устройствах */
+    }
+  }
+  

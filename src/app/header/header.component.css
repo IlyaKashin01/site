@@ -1,0 +1,31 @@
+/* Дополнительные стили */
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://celes.club/pictures/uploads/posts/2023-06/1687401887_celes-club-p-vetklinika-risunok-risunok-krasivo-17.jpg'); /* Фоновое изображение */
+  background-size: cover;
+  background-position: center;
+  text-align: center; /* Выравнивание содержимого по центру */
+}
+.banner {
+  margin: 40vh
+}
+
+.banner-content {
+  max-width: 600px; /* Максимальная ширина контента баннера */
+  margin: 0 auto; /* Центрирование блока */
+}
+
+.banner-content h1 {
+  font-size: 24px; /* Размер текста */
+  margin-bottom: 20px; /* Отступ снизу */
+}
+
+.btn-banner {
+  background-color: #0e24f0;
+  color: #fff;
+  padding: 10px 20px; /* Отступы внутри кнопки */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}

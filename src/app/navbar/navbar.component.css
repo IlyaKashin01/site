@@ -1,0 +1,34 @@
+.container-fluid {
+    display: flex; 
+    background-color: #fff;
+    padding: 20px; /* Отступы */
+  }
+  
+  .logo img {
+    width: 50px; /* Ширина логотипа */
+  }
+  
+  .navbar{
+    justify-content: space-between;
+    margin-left: 40%;
+  }
+  .navbar ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline-block; /* Элементы меню располагаются горизонтально */
+    margin-right: 20px; /* Отступ между элементами */
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    color: #0e24f0;
+    font-size: 20px;
+  }
+  .navbar ul li a:hover {
+    text-decoration: none; /* Удаляем стандартное подчеркивание */
+    color: #0e24f0;
+    padding-bottom: 2px; /* Добавляем отступ от текста до линии */
+    border-bottom: 1px solid #0e24f0; /* Добавляем линию под текстом */
+  }

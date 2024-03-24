@@ -1,0 +1,13 @@
+.container-fluid {
+    justify-content: center;
+    text-align: center;
+}
+.states {
+    padding: 5%
+}
+.title_h1 {
+    width: 10vw;
+    color: #0e24f0;
+    text-align: left; /* Выравнивание заголовка слева */
+    border-bottom: 1px solid #0e24f0;
+  }
